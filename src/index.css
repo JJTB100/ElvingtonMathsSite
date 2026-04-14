@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Work+Sans:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Newsreader", serif;
+  --font-body: "Work Sans", sans-serif;
+  --font-label: "Inter", sans-serif;
+
+  --color-primary: #001e40;
+  --color-primary-container: #003366;
+  --color-on-primary-container: #799dd6;
+  --color-secondary: #48626e;
+  --color-secondary-container: #cbe7f5;
+  --color-on-secondary-container: #4e6874;
+  --color-tertiary: #2b1b00;
+  --color-on-tertiary: #ffffff;
+  --color-surface: #f8f9fb;
+  --color-surface-container-low: #f2f4f6;
+  --color-surface-container-highest: #e0e3e5;
+  --color-on-surface: #191c1e;
+  --color-on-surface-variant: #43474f;
+  --color-background: #f8f9fb;
+  --color-on-background: #191c1e;
+  --color-outline-variant: #c3c6d1;
+}
+
+@layer base {
+  body {
+    @apply font-body bg-background text-on-background selection:bg-primary-container selection:text-white;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
+
+.math-accent {
+  background: linear-gradient(135deg, #001e40 0%, #003366 100%);
+}
+
+.hero-pattern {
+  background-image: radial-gradient(circle at 2px 2px, #e0e3e5 1px, transparent 0);
+  background-size: 40px 40px;
+}
