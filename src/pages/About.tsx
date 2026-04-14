@@ -8,7 +8,7 @@ export function AboutPage() {
         <div className="lg:col-span-4 space-y-8">
           <div className="rounded-3xl overflow-hidden shadow-xl aspect-[3/4] relative">
             <img 
-              src="/me-photo.jpg"
+              src="./me-photo.jpg"
               alt="Karen Broster" 
               className="w-full h-full object-cover"
             />

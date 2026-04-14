@@ -18,7 +18,7 @@ export function LessonDetailsPage() {
         <div className="lg:col-span-5 relative">
           <div className="rounded-2xl overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
             <img 
-              src="/student.JPG" 
+              src="./student.JPG" 
               alt="Focused student" 
               className="w-full h-[600px] object-cover" 
             />

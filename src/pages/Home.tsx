@@ -127,7 +127,7 @@ export function HomePage() {
             <div className="flex flex-col items-center gap-8 text-center bg-white/10 backdrop-blur-md p-10 rounded-3xl border border-white/10">
               <div className="w-48 bg-white rounded-xl flex items-center justify-center p-4">
                 <img 
-                  src="/tta.png" 
+                  src="./tta.png" 
                   alt="Tutors Association Member" 
                   className="w-full h-auto object-contain" 
                 />
